@@ -1,4 +1,4 @@
-[![Release][release-image]][release] [![CI][ci-image]][ci] [![License][license-image]][license]
+[![Release][release-image]][release] [![CI][ci-image]][ci] [![License][license-image]][license] [![Registry][registry-image]][registry]
 
 # terraform-aws-dynamodb-autoscaling
 
@@ -104,3 +104,6 @@ limitations under the License.
 
 [license]: https://www.apache.org/licenses/LICENSE-2.0
 [license-image]: https://img.shields.io/badge/license-Apache--2-blue.svg?style=flat
+
+[registry]: https://registry.terraform.io/modules/snowplow-devops/dynamodb-autoscaling/aws/latest
+[registry-image]: https://img.shields.io/static/v1?label=Terraform&message=Registry&color=7B42BC&logo=terraform
