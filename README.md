@@ -102,5 +102,5 @@ limitations under the License.
 [ci]: https://github.com/snowplow-devops/terraform-aws-dynamodb-autoscaling/actions?query=workflow%3Aci
 [ci-image]: https://github.com/snowplow-devops/terraform-aws-dynamodb-autoscaling/workflows/ci/badge.svg
 
-[license]: http://www.apache.org/licenses/LICENSE-2.0
-[license-image]: http://img.shields.io/badge/license-Apache--2-blue.svg?style=flat
+[license]: https://www.apache.org/licenses/LICENSE-2.0
+[license-image]: https://img.shields.io/badge/license-Apache--2-blue.svg?style=flat
