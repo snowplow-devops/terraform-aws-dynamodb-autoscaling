@@ -38,14 +38,14 @@ module "table_autoscaling" {
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.15 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 3.25.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 3.41.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 3.25.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 3.41.0 |
 
 ## Modules
 
@@ -64,12 +64,12 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_table_name"></a> [table\_name](#input\_table\_name) | The name of the DynamoDB table to add auto-scaling to | `string` | n/a | yes |
 | <a name="input_read_max_capacity"></a> [read\_max\_capacity](#input\_read\_max\_capacity) | The maximum READ capacity for the table | `number` | `50` | no |
 | <a name="input_read_min_capacity"></a> [read\_min\_capacity](#input\_read\_min\_capacity) | The minimum READ capacity for the table | `number` | `1` | no |
 | <a name="input_read_scale_in_cooldown"></a> [read\_scale\_in\_cooldown](#input\_read\_scale\_in\_cooldown) | The number of seconds before scaling IN can occur after a scaling action | `number` | `300` | no |
 | <a name="input_read_scale_out_cooldown"></a> [read\_scale\_out\_cooldown](#input\_read\_scale\_out\_cooldown) | The number of seconds before scaling OUT can occur after a scaling action | `number` | `30` | no |
 | <a name="input_read_target_value"></a> [read\_target\_value](#input\_read\_target\_value) | The target utilization percentage for the table | `number` | `85` | no |
-| <a name="input_table_name"></a> [table\_name](#input\_table\_name) | The name of the DynamoDB table to add auto-scaling to | `string` | n/a | yes |
 | <a name="input_write_max_capacity"></a> [write\_max\_capacity](#input\_write\_max\_capacity) | The maximum WRITE capacity for the table | `number` | `50` | no |
 | <a name="input_write_min_capacity"></a> [write\_min\_capacity](#input\_write\_min\_capacity) | The minimum WRITE capacity for the table | `number` | `1` | no |
 | <a name="input_write_scale_in_cooldown"></a> [write\_scale\_in\_cooldown](#input\_write\_scale\_in\_cooldown) | The number of seconds before scaling IN can occur after a scaling action | `number` | `300` | no |
@@ -85,7 +85,7 @@ No modules.
 
 # Copyright and license
 
-The Terraform AWS DynamoDB AutoScaling project is Copyright 2021-2021 Snowplow Analytics Ltd.
+The Terraform AWS DynamoDB AutoScaling project is Copyright 2021-2022 Snowplow Analytics Ltd.
 
 Licensed under the [Apache License, Version 2.0][license] (the "License");
 you may not use this software except in compliance with the License.
