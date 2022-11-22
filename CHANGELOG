@@ -1,3 +1,7 @@
+Version 0.2.0 (2022-11-23)
+--------------------------
+Cleanup repo and normalize (#6)
+
 Version 0.1.2 (2022-01-20)
 --------------------------
 Update AWS provider to >= 3.41.0 (#3)
