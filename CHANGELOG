@@ -1,3 +1,7 @@
+Version 0.2.2 (2026-09-26)
+--------------------------
+Update GitHub Actions to Node 24 and pin to commit SHAs
+
 Version 0.2.1 (2022-11-23)
 --------------------------
 Update AWS provider to >= 3.45.0 (#7)
